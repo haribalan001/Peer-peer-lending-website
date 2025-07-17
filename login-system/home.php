@@ -24,16 +24,16 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         </div>
 
         <div class="item">
-            <a class="home-btn" href="/">Home</a>
-            <a href="/">Rent Car</a>
+            <a class="home.php" href="/home.php">Home</a>
+            <a href="index.php">Rent Car</a>
             <a href="/">Contact Us</a>
             <a href="/">About Us</a>
             <a href="/">Blog</a>
         </div>
 
         <div class="btn">
-            <input class="login" type="button" value="Log in" onclick="redirect()">
-            <input type="button" value="Sign Up">
+            <a class="login" href="login.php">Log In</a>
+            <a class="login" href="signup.php">Sign Up</a>
         </div>
     </nav>
      <script>
